@@ -1,7 +1,7 @@
 ![](https://github.com/viktor-ko/cordex_tas_converter/blob/master/temperature%202020-2100.gif)
 # CORDEX Data Processing
 
-This script automatize handling of Coordinated Regional Climate Downscaling Experiment [(CORDEX) temperature data from Copernicus CDS](https://cds.climate.copernicus.eu/datasets/projections-cordex-domains-single-levels?tab=overview): downloading, extracting, converting, reprojecting, and storaging in ESRI-compatible multidimensional Cloud Raster Format (CRF) or as Cloud-Optimized GeoTIFF (COG). The resulting CRF file is ready for animated visualisation of seasonal data and hosting in ArcGIS online.
+This script automatizes the handling of Coordinated Regional Climate Downscaling Experiment [(CORDEX) temperature data from Copernicus CDS](https://cds.climate.copernicus.eu/datasets/projections-cordex-domains-single-levels?tab=overview): downloading zips, extracting netcdf, unit conversion (from Kelvin to Celsius), reprojecting, and storing in ESRI-compatible multidimensional Cloud Raster Format (CRF) or as Cloud-Optimized GeoTIFF (COG). The resulting CRF file is ready for animated visualisation of seasonal data and hosting in ArcGIS online.
 
 ## Project Structure
 - `CORDEX_tas.py`: Main file
