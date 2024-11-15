@@ -7,8 +7,6 @@ import netCDF4
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-#pip install GDAL-3.4.3-cp39-cp39-win_amd64.whl
-
 #standard project home directory
 PROJECT_HOME = './cordex'
 
